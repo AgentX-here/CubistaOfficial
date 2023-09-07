@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cubista</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/icon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <header id="header">
+      <div class="logo">
+        <span class="a">cub</span>
+        <img src="images\cubista.png" alt="Cubista Logo">
+        <span class="b">ista</span>
+      </div>
+      <ul>
+        <li><a href="#"><span>Home</span><ion-icon name="home-outline" class="header-icon"></ion-icon></a></li>
+        <li><a href="#"><span>Tutorials</span><ion-icon name="library-outline" class="header-icon"></ion-icon></a></li>
+        <li><a href="#"><span>Timer</span><ion-icon name="stopwatch-outline" class="header-icon"></ion-icon></a></li>
+      </ul>
+    </header>
+    <section class="main">
+        <div class="title-flex">
+          <h1>Cubing for</h1>
+          <div class="words">
+            <span style="color: #f00;">speed</span>
+            <span style="color: #fa0;">records</span>
+            <span style="color: #00f;">passion</span>
+            <span style="color: #00aa00;">friends</span>
+            <span style="color: #f00;">speed</span>
+          </div>
+        </div>
+        <br>
+        <h6 class="sub-title">Let's solve the Rubik's cube</h6>
+        <a href="#tutorials"><ion-icon class="down-icon" name="arrow-down-outline" href="#tutorials"></ion-icon></a>
+    </section>
+
+    <section class="tutorials" id="tutorials">
+      <h1>Our tutorials</h1>
+      <div class="tuto-list">
+        <div class="tuto-elem"><img src="images/landing-3x3.webp" alt="3x3 Cube"><span>3x3</span></div>
+        <div class="tuto-elem"><img src="images/landing-2x2.webp" alt="2x2 Cube"><span>2x2</span></div>
+        <div class="tuto-elem"><img src="images/landing-4x4.webp" alt="4x4 Cube"><span>4x4</span></div>
+        <div class="tuto-elem"><img src="images/landing-2x2.webp" alt="NxN Cubes"><span>NxN</span></div>
+        <div class="tuto-elem"><img src="images/landing-blindfolded.webp" alt="3x3 Blindfolded"><span>3BLD</span></div>
+        <div class="tuto-elem"><img src="images/landing-2x2.webp" alt="2x2 Cube"><span>2BLD</span></div>
+      </div>
+      <button>See More<ion-icon name="arrow-forward-outline"></ion-icon></button>
+    </section>
+
+    <script src="script.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
